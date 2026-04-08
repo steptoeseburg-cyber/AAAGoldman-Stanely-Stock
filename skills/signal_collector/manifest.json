@@ -1,6 +1,0 @@
-{
-  "name": "MarTech信号提取器",
-  "id": "martech_signal_collector",
-  "description": "从海量网页和社媒中提取原始营销科技信号",
-  "entry": "skills/signal_collector/logic.py"
-}
