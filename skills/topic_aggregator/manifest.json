@@ -1,6 +1,0 @@
-{
-  "name": "MarTech主题聚合专家",
-  "id": "martech_topic_aggregator",
-  "description": "将碎片信号聚合成趋势主题",
-  "entry": "skills/topic_aggregator/logic.py"
-}
