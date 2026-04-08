@@ -1,0 +1,15 @@
+{
+  "name": "钛动营销科技增长雷达",
+  "id": "tecdo_growth_radar",
+  "description": "每周自动分析全球 MarTech 赛道增长趋势，提供高管简报与业务建议。",
+  "version": "1.0.0",
+  "parameters": [
+    {
+      "name": "time_range",
+      "type": "string",
+      "description": "分析的时间范围，默认过去7天",
+      "default": "last_7_days"
+    }
+  ],
+  "output_format": "feishu_markdown"
+}
