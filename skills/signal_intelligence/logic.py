@@ -7,3 +7,15 @@ SYSTEM_PROMPT = """
 2. 将 Signals 聚合成 Topics (趋势、高频词、实体产品)。
 ## 输出说明: 结构化的 Markdown 文本，包含 Signals 列表和 Topics 摘要。
 """
+# 明确告诉底层 Skill：你必须且只能输出这种 JSON 结构
+OUTPUT_SCHEMA = {
+    "signals": [
+        {"type": "string", "source": "string", "content": "string", "metric": "string"}
+    ],
+    "topics": [
+        {"name": "string", "summary": "string", "related_signals": "list"}
+    ],
+    "entities": ["string"]
+}
+
+# 你的 SYSTEM_PROMPT 也要同步更新，要求必须按这个 JSON 格式输出结果
