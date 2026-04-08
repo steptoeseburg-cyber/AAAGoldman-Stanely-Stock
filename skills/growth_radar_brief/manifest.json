@@ -1,0 +1,9 @@
+{
+  "id": "martech_growth_radar_brief",
+  "name": "钛动营销增长雷达简报",
+  "description": "【触发场景】当底层情报已提取完成，需要生成面向钛动高管和业务部门的正式周报时使用。将专业情报翻译为业务洞察。",
+  "dependencies": "【依赖关系】强依赖于 martech_signal_intelligence 提供的结构化数据，不直接执行全网搜索。",
+  "input_description": "【输入说明】仅接受已结构化的 Signals 列表、Topics 汇总及 Entity 列表。不接受非结构化的原始长文。",
+  "output_description": "【输出说明】输出为飞书直接阅读优化版 Markdown。包含：1.高管摘要；2.增长看板(Sector/Token)；3.对标点评；4.业务行动建议。",
+  "entry_point": "skills/growth_radar_brief/logic.py"
+}
