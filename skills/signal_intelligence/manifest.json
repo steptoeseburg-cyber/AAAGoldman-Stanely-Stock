@@ -1,0 +1,9 @@
+{
+  "id": "martech_signal_intelligence",
+  "name": "MarTech 信号情报中心",
+  "description": "【触发场景】当用户要求生成周报、扫描赛道趋势或提供原始营销新闻、链接、社媒帖子时触发。负责将零散信息提炼为结构化情报。",
+  "input_description": "【输入说明】支持全网搜索结果、URL链接列表、或过去7天的营销科技原始文本。不接受已格式化的简报。",
+  "output_description": "【输出说明】输出为结构化的 Markdown 列表。包含：1.标准化 Signal 列表（带数据指标）；2.聚合后的 Topic 趋势；3.高频实体(产品/公司)汇总。",
+  "entry_point": "skills/signal_intelligence/logic.py",
+  "capabilities": ["web_search", "content_extraction"]
+}
