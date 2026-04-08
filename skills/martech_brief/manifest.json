@@ -1,6 +1,0 @@
-{
-  "name": "钛动营销增长雷达周报",
-  "id": "martech_growth_radar_brief",
-  "description": "生成面向高管的飞书格式增长周报",
-  "entry": "skills/martech_brief/logic.py"
-}
