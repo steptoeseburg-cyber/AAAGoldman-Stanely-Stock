@@ -1,1 +1,0 @@
-# AAAGoldman-Stanely-Stock
